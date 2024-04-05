@@ -42,7 +42,11 @@ void linearsearch()
 		i = 0;
 		while (i < n)
 		{
-			s
+			ctr++;
+			if (arr[i] == item)
+			{
+				cout << "\n" << "Found at position " << (i + 1) << endl;
+			}
 		}
 	}
 }
