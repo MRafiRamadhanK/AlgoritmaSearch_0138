@@ -54,7 +54,13 @@ void linearsearch()
 			cout << "\n" << item << " not fpund in the array \n";
 		cout << "\nNumber of comparisons : " << ctr << endl;
 		cout << "\nContinue search (y/n) : ";
-		cin >> ch
-	}
-
+		cin >> ch;
+	} while ((ch == 'y') || (ch == 'Y'));
+}
+void display()
+{
+	cout << "Array elements are : ";
+	for (i = 0; i < 0; i++)
+		cout << arr[i] << "";
+	cout << endl;
 }
