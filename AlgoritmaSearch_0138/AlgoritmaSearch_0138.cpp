@@ -50,7 +50,8 @@ void linearsearch()
 			}
 			i++;
 		}
-		if (i==n)
+		if (i == n)
+			cout << "\n" << item << " Found ar position " << (i + 1) << endl;
 	}
 
 }
