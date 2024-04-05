@@ -51,7 +51,10 @@ void linearsearch()
 			i++;
 		}
 		if (i == n)
-			cout << "\n" << item << " Found ar position " << (i + 1) << endl;
+			cout << "\n" << item << " not fpund in the array \n";
+		cout << "\nNumber of comparisons : " << ctr << endl;
+		cout << "\nContinue search (y/n) : ";
+		cin >> ch
 	}
 
 }
