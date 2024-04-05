@@ -5,7 +5,7 @@ int arr[20];
 int n;
 int i;
 
-void input 
+void input ()
 {
 	while (true)
 	{
@@ -25,5 +25,12 @@ void input
 		cout << "<" << (i + 1) << ">";
 		cin >> arr[i];
 	}
+}
+
+void linearsearch()
+{
+	char ch;
+	int ctr;
+	int item;
 
 }
