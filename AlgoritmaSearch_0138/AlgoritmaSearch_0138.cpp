@@ -8,5 +8,8 @@ int i;
 void input 
 {
 	while (true)
-	{ }
+	{
+		cout << "Enter The number of element in the array : ";
+
+	}
 }
