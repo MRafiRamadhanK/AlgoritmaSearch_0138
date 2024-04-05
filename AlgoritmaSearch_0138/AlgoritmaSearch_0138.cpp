@@ -50,5 +50,7 @@ void linearsearch()
 			}
 			i++;
 		}
+		if (i==n)
 	}
+
 }
